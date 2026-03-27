@@ -1,33 +1,58 @@
-# Ecommerce-BD-M3
-Mi primer repositorio del proyecto
+# 🗄️ Ecommerce Base de Datos
 
+## 📌 Descripción
 
-# Link directo a mi repositorio    https://github.com/manecist/Ecommerce-BD-M3
+Diseño y construcción de la base de datos para un sistema ecommerce.
+Incluye la estructura necesaria para gestionar productos, usuarios, compras y relaciones entre entidades.
 
+---
 
-Se sube la base de datos al GITHUB
+## 🛠 Tecnologías
 
-Se creo una BD en base a mi misma pagina creada anteriormente
+MySQL • SQL
 
-Cuento con un word tipo tipeo donde ordene las ideas de lo que deseaba hacer antes de comenzar la database
+---
 
-Se modificaron incontables veces el diagrama ER, el modelo logico y las tablas dentro del database
+## 🧱 Estructura
 
-Se buscaron algunos comando para hacer funcionar mejor las consultas como es el caso de uso de funciones, usar el heving como un where para dar condicion sin errores a la consulta
+* Tabla productos
+* Tabla usuarios
+* Tabla pedidos
+* Relaciones entre entidades
 
-Se ordena la database dejando agrupado por titulo los pasos para mi BD
+---
 
-Se agregaron tablas como usuraio que en mi pagina esta el icono pero aun no existe formulario anidado porque no era necesario en ese momento, pero ya se considera en BD, ademas de otras tablas para mejorar el rendimiento de las consultas como las tablas intermedias y de esa forma evitar las relaciones N:M como lo son detalle_venta, descuento_aplicados e items_carrito
+## 📷 Modelo de datos
 
-Se habia creado tabla de descuento relacionado con categoria, subcategoria y productos con tablas intermedias, pero como los descuentos no se aplicaban directamente en ellas decidi dejar de forma mas simple la tabla donde solo existe descuento asociado a venta mediante descuento_aplicado, ya que el descuento se aplica al final de la venta
+<img width="1192" height="872" alt="Captura de pantalla 2026-03-26 231126" src="https://github.com/user-attachments/assets/c161609e-0820-424b-9e37-51ab1cd75343" />
+<img width="1174" height="860" alt="image" src="https://github.com/user-attachments/assets/1e466bda-ea98-4e0e-a6dd-9816e669b03d" />
+<img width="1172" height="800" alt="image" src="https://github.com/user-attachments/assets/0946d387-2b8a-4c78-8f54-7361056d423a" />
+<img width="1175" height="855" alt="image" src="https://github.com/user-attachments/assets/208d48f2-6953-4183-8b2b-d9b93831d5b3" />
+<img width="1173" height="855" alt="image" src="https://github.com/user-attachments/assets/a2a20a9a-de64-484f-9562-53fd52b213e6" />
+<img width="1942" height="1050" alt="MODELO ER drawio" src="https://github.com/user-attachments/assets/06a43bab-5c1f-468e-ab37-88787e14511d" />
+<img width="2341" height="1422" alt="MODELO LOGICO drawio" src="https://github.com/user-attachments/assets/13cd158c-20b1-4cf0-9b45-29aa0095aeef" />
 
-En un inicio me genero conflictos ciertas condiciones que aplique a las tablas como los UNIQUE Y NOT NULL por lo cual se modifico para simplicar la elminacion y modificacion de tablas.
+---
 
-Se agregan check a la creacion de tablas y se prueba con el valor de edad minima requerida para comprar
+## ⚙️ Funcionalidades
 
-Se hicieron vistas, e index para mejorar consultas 
+✔ Creación de tablas
+✔ Relaciones entre datos
+✔ Consultas SQL
+✔ Integridad de datos
 
+---
 
-Se realiza ingeneria inversa para crear un modelo ER dentro de mysql para ver de mejor manera las relaciones y la logica de las tablas, la cual se sube tambien al repositorio
+## ▶️ Cómo usar
 
+1. Importar archivo SQL en MySQL
+2. Ejecutar script
+3. Probar consultas
 
+---
+
+## 🚀 Mejoras futuras
+
+* Optimización de consultas
+* Procedimientos almacenados
+* Integración con backend

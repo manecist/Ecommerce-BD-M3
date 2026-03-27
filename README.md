@@ -1,5 +1,12 @@
 # 🗄️ Ecommerce Base de Datos
 
+Diseño de base de datos para sistema ecommerce, desarrollado como parte de mi formación en desarrollo Full Stack.
+
+🔗 Parte de proyecto completo:
+Frontend | Backend | Base de Datos | CRUD
+
+---
+
 ## 📌 Descripción
 
 Diseño y construcción de la base de datos para un sistema ecommerce.
@@ -39,6 +46,7 @@ MySQL • SQL
 ✔ Creación de tablas
 ✔ Relaciones entre datos
 ✔ Consultas SQL
+✔ Manipulación de datos
 ✔ Integridad de datos
 
 ---
